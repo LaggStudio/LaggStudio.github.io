@@ -2095,7 +2095,7 @@ html, body {
   background-color: #ffffff;
 }
 .twitter-timeline {
-position: relative !important;
+position: relative;
 }
 
 @media only screen and (max-width: 767px) {

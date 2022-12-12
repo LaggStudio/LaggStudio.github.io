@@ -178,6 +178,115 @@
 	color: #5ac24e;
 }
 
+
+
+
+.header .language {
+	margin-top: 60px;
+	width: 100%;
+	font-size: 0;
+}
+
+.header .language ul li {
+	display: block;
+}
+
+.header .language ul li a {
+	margin: 8px 0;
+	position: relative;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+}
+
+.header .language ul li a .icon {
+	margin: 0;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	font-size: 21px;
+	color: #a9a9a9;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-khtml-border-radius: 30px;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+
+.header .language ul li a .link {
+	margin: -11px 0 0 0;
+	padding: 0 8px;
+	position: absolute;
+	left: 120%;
+	top: 50%;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: 300;
+	background: #181818;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transform: translateX(-10px);
+	-webkit-transform: translateX(-10px);
+	-moz-transform: translateX(-10px);
+	-o-transform: translateX(-10px);
+}
+
+.header .language ul li a .link:before {
+	margin-top: -5px;
+	content: '';
+	position: absolute;
+	left: -10px;
+	top: 50%;
+	border: 5px solid transparent;
+	border-right: 5px solid #111;
+}
+
+@media (max-width: 560px) {
+	.header .language ul li a .link {
+		display: none;
+	}
+
+}
+
+.header .language ul li:hover a {
+	color: #ffffff;
+}
+
+.header .language ul li:hover a .icon {
+	color: #ffffff;
+}
+
+.header .language ul li:hover a .link {
+	transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	opacity: 1;
+	visibility: visible;
+}
+
+.header .language ul li.active a {
+	color: #5ac24e;
+}
+
+.header .language ul li.active a .icon {
+	color: #5ac24e;
+}
+
 .header .social {
 	position: absolute;
 	left: 0;
@@ -217,6 +326,10 @@
 	}
 
 	.header.opened .top-menu {
+		opacity: 1;
+		visibility: visible;
+	}
+	.header.opened .language {
 		opacity: 1;
 		visibility: visible;
 	}
@@ -276,6 +389,36 @@
 	}
 
 	.header .top-menu ul li a .icon {
+		margin: 0;
+		display: block;
+		width: 50px;
+		height: 58px;
+		line-height: 56px;
+	}
+
+	.header .language {
+		position: absolute;
+		left: 0;
+		top: 58px;
+		margin-top: 0;
+		width: 50px;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-webkit-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+	}
+
+	.header .language ul li {
+		display: flex;
+	}
+
+	.header .language ul li a {
+		margin: 0;
+	}
+
+	.header .language ul li a .icon {
 		margin: 0;
 		display: block;
 		width: 50px;

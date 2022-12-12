@@ -68,6 +68,20 @@ ol, ul {
 	border-left: 5px solid #111;
 }
 
+.header .language ul li a .link {
+	margin: 0 0 0 -11px;
+	padding: 0 8px;
+	left: auto;
+	right: 120%;
+}
+
+.header .language ul li a .link:before {
+	left: auto;
+	right: -5px;
+	border-right: none;
+	border-left: 5px solid #111;
+}
+
 .service-items .service-item {
 	text-align: right;
 }
@@ -164,6 +178,9 @@ ol, ul {
 
 @media (max-width: 1023px) {
 	.header .top-menu ul li a .link {
+		display: none;
+	}
+	.header .language ul li a .link {
 		display: none;
 	}
 	.lines-grid {

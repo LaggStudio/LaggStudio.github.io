@@ -7,6 +7,7 @@
     <list default="true" id="5411ae7f-26a6-427f-bfb3-719083a5733f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/form_setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/form_setting.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <workItem from="1659616149459" duration="1347000" />
       <workItem from="1659622291613" duration="6028000" />
       <workItem from="1659809108046" duration="1097000" />
-      <workItem from="1670877369622" duration="892000" />
+      <workItem from="1670877369622" duration="2696000" />
     </task>
     <servers />
   </component>

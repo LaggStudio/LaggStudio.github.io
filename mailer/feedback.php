@@ -1,11 +1,13 @@
 <?php 
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
-require 'PHPMailer.php';
-//require 'SMTP.php';
-require 'POP3.php';
-require 'form_setting.php';
+require 'mailer/PHPMailer.php';
+require 'mailer/SMTP.php';
+require 'mailer/POP3.php';
+require 'mailer/form_setting.php';
 
 if(isset($_POST)){
 	$name = $_POST['name'];
@@ -19,23 +21,31 @@ if(isset($_POST)){
 	$messages .= "<li><strong>Message: </strong>" .$message."</li>";
 	$messages .= "</ul> \r\n";
 
-	$mail = new PHPMailer;
+	$mail = new PHPMailer(true);
 
 	$mail->From = $from;
 	$mail->FromName = $fromName;
-	$mail->addAddress($to, 'Admin');
+    try {
+        $mail->addAddress($to, 'Admin');
+    } catch (Exception $e) {
+        print ($e);
+    }
 
-	$mail->isHTML(true); 
+    $mail->isHTML(true);
 	$mail->CharSet = $charset;
 
 	$mail->Subject = $subj;
 	$mail->Body    = $messages;
 
-	if(!$mail->send()) {
-	    print json_encode(array('status'=>0));
-	} else {
-	    print json_encode(array('status'=>1));
-	}
+    try {
+        if (!$mail->send()) {
+            print json_encode(array('status' => 0));
+        } else {
+            print json_encode(array('status' => 1));
+        }
+    } catch (Exception $e) {
+        print ($e);
+    }
 
 }
 	

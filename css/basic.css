@@ -716,8 +716,11 @@ input:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
 	color: #ffffff;
 }
-
-input.error,
+.myImage{
+	margin: 0 0 7px 0;
+	animation-delay: 3s;
+	animation: jackInTheBox 3s ease-in-out;
+}input.error,
 textarea.error {
 	border-bottom: 1px solid #ff0000 !important;
 }

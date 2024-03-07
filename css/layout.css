@@ -1748,5 +1748,6 @@ p img {
 }
 .myImage{
 	margin: 0 0 7px 0;
+	animation-delay: 3s;
 	animation: jackInTheBox 3s ease-in-out;
 }

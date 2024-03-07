@@ -40,6 +40,28 @@ $(function () {
 		loop: true
 	});
 
+	/*MovingBG*/
+	var particlesBg = document.getElementById("particles-bg");
+
+	// List of image URLs
+
+	const imageList = ["images/Screenshot/NightfallForest1.jpg", "images/Screenshot/Souls.png", "images/Screenshot/PaintBall.jpg", "images/Screenshot/Tako.png", "images/Screenshot/Struggle1.jpg", "images/Screenshot/SoundofSilanec1.jpg"]; // Add more image URLs as needed
+
+	// Function to update background image
+	function updateBackground() {
+		// Get a random index from the image list
+		const randomIndex = Math.floor(Math.random() * imageList.length);
+
+		// Set the background image using the random index
+		particlesBg.style.backgroundImage = "url(" + imageList[randomIndex] + ")";
+	}
+
+	// Call the function initially to set the background
+	updateBackground();
+
+	// Update the background image every 5 seconds (5000 milliseconds)
+	setInterval(updateBackground, 3000);
+
 
 	/*
 		Menu Mobile

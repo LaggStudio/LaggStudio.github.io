@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5411ae7f-26a6-427f-bfb3-719083a5733f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/qbmuG8qZ_400x400 copy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-particles-rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-particles-rtl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
       <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io\images\Projects Screenshot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolioSit\LaggStudio.github.io\images" />
       <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io\mailer" />
       <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io" />
       <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io\images\Screenshot" />
@@ -93,7 +97,7 @@
       <workItem from="1709789221747" duration="362000" />
       <workItem from="1709789602182" duration="229000" />
       <workItem from="1709789846075" duration="470000" />
-      <workItem from="1709790378528" duration="1997000" />
+      <workItem from="1709790378528" duration="3693000" />
     </task>
     <servers />
   </component>

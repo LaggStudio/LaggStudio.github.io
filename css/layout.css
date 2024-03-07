@@ -1746,3 +1746,7 @@ p img {
 	top: 0;
 	opacity: 0;
 }
+.myImage{
+	margin: 0 0 7px 0;
+	animation: jackInTheBox 3s ease-in-out;
+}

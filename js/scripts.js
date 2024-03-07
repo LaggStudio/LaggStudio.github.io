@@ -364,7 +364,7 @@ $(function () {
 */
 
 function initMap() {
-	var myLatlng = new google.maps.LatLng(48.859003, 2.345275); // <- Your latitude and longitude
+	var myLatlng = new google.maps.LatLng(31.167560, 31.220817); // <- Your latitude and longitude
 	var styles = [
 		{
 			"stylers": [
@@ -395,6 +395,7 @@ function initMap() {
 			]
 		}
 	]
+
 
 	var mapOptions = {
 		zoom: 16,

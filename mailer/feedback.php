@@ -2,12 +2,9 @@
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
 
-require 'mailer/PHPMailer.php';
-require 'mailer/SMTP.php';
-require 'mailer/POP3.php';
-require 'mailer/form_setting.php';
+require 'form_setting.php';
+require '../vendor/autoload.php';
 
 if(isset($_POST)){
 	$name = $_POST['name'];
@@ -20,19 +17,25 @@ if(isset($_POST)){
 	$messages .= "<li><strong>Email: </strong>" .$email."</li>";
 	$messages .= "<li><strong>Message: </strong>" .$message."</li>";
 	$messages .= "</ul> \r\n";
-
 	$mail = new PHPMailer(true);
-
+    $mail -> isSMTP();
+    $mail->IsHTML();
+    $mail-> SMTPAuth = true;
+    $mail-> Host = "smtp.gmail.com";
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port       = 587;
+    $mail ->Username="thedragon7ell@gmail.com";
+    $mail ->Password="fwso yfas zzgv adbe";
 	$mail->From = $from;
 	$mail->FromName = $fromName;
+
     try {
         $mail->addAddress($to, 'Admin');
     } catch (Exception $e) {
         print ($e);
     }
 
-    $mail->isHTML(true);
-	$mail->CharSet = $charset;
+    $mail->CharSet = $charset;
 
 	$mail->Subject = $subj;
 	$mail->Body    = $messages;

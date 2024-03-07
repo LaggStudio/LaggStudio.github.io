@@ -268,10 +268,12 @@ $(function () {
 				url: 'mailer/feedback.php',
 				type: 'post',
 				dataType: 'json',
+				mode:"abort",
+				port:587,
 				data: 'name='+ $("#cform").find('input[name="name"]').val() + '&email='+ $("#cform").find('input[name="email"]').val() + '&message=' + $("#cform").find('textarea[name="message"]').val(),
 				beforeSend: function() {
 				},
-				complete: function(data) {
+				complete: function() {
 				},
 				success: function(data) {
 					$('#cform').fadeOut();

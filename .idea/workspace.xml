@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5411ae7f-26a6-427f-bfb3-719083a5733f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailer/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/Exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailer/OAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/OAuth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailer/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/PHPMailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailer/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/POP3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailer/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/SMTP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/DSNConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/OAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/OAuthTokenProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/PHPMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/POP3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/SMTP.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mailer/feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/feedback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/form_setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/mailer/form_setting.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -28,7 +34,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="2CtJroxztmM4rQdVEMKRdkebpWY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,13 +50,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ahmed/Documents/ZoobaLike/portfolio  sit/LaggStudio.github.io",
+    "last_opened_file_path": "C:/Users/Ahmed/Documents/ZoobaLike/portfolioSit/LaggStudio.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,6 +65,8 @@
       <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io\images\Projects Screenshot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io\mailer" />
+      <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io" />
       <recent name="C:\Users\Ahmed\Documents\ZoobaLike\portfolio  sit\LaggStudio.github.io\images\Screenshot" />
     </key>
   </component>
@@ -86,7 +99,12 @@
       <workItem from="1679654423200" duration="3470000" />
       <workItem from="1683817846726" duration="232000" />
       <workItem from="1709771125354" duration="7846000" />
-      <workItem from="1709780308115" duration="866000" />
+      <workItem from="1709780308115" duration="2779000" />
+      <workItem from="1709783401048" duration="5419000" />
+      <workItem from="1709789221747" duration="362000" />
+      <workItem from="1709789602182" duration="229000" />
+      <workItem from="1709789846075" duration="470000" />
+      <workItem from="1709790378528" duration="1365000" />
     </task>
     <servers />
   </component>

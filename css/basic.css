@@ -719,7 +719,7 @@ textarea:focus:-ms-input-placeholder {
 .myImage{
 	margin: 0 0 7px 0;
 	animation: jackInTheBox 3s ease-in-out;
-	animation-delay: 3s;
+	animation-delay: 1.5s;
 }input.error,
 textarea.error {
 	border-bottom: 1px solid #ff0000 !important;
